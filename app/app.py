@@ -1,8 +1,11 @@
 import streamlit as st
 import pandas as pd
 import joblib
+from pathlib import Path
 
-MODEL_PATH = "xgb_final_model.pkl"
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "xgb_final_model.pkl"
 CV_MAE = 46157.47
 
 FEATURES = [
