@@ -1,16 +1,7 @@
-# Jupyter
 .ipynb_checkpoints/
-
-# Python
 __pycache__/
 *.pyc
-
-# Models
 *.pkl
-
-# Environment / secrets
 .env
-
-# Data (do not upload large CSVs)
 data/raw/
 data/processed/
